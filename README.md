@@ -27,7 +27,7 @@ CREATE TABLE reviews (
     created DATETIME DEFAULT CURRENT_TIMESTAMP
     );
 ```
-[Restaurant Data](data/rest_data.csv) \
+Link to data: [Restaurant Data](data/rest_data.csv) \
 Code for importing the above csv file:
 ``` 
 .mode csv
@@ -93,8 +93,8 @@ CREATE TABLE posts (
     from_user_id INTEGER NOT NULL
     );
 ```
-[User Data](data/user_data.csv) \
-[Posts](data/post_data.csv) \
+Link to data: [User Data](data/user_data.csv) \
+Link to data: [Posts](data/post_data.csv) \
 Code for importing the above csv files: 
 ```
 .mode csv
